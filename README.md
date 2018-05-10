@@ -22,5 +22,5 @@ name
 ```
 
 ### RESP definition
-[REdis Serialization Protocol](https://redis.io/topics/protocol)
+[Redis Serialization Protocol](https://redis.io/topics/protocol)
 
