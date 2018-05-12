@@ -109,6 +109,8 @@ def parse_multi_bulk_reply(data):
             l = len(str(dst_len))
             if dst_len > -1:
                 l = l+2 #additional \r\n
+            elif dst_len == -1:
+		l = l+1 #dst_legth -1 while actually length is 0
 
         #elif data[i+1] == S_BULK_STRINGS:
             #dst, dst_len = parse_multi_bulk_reply(data[i:])
